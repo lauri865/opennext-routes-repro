@@ -22,8 +22,8 @@ importers:
         specifier: ^4.20250429.0
         version: 4.20250525.0
       '@opennextjs/cloudflare':
-        specifier: 1.0.3
-        version: 1.0.3(wrangler@4.16.1(@cloudflare/workers-types@4.20250525.0))
+        specifier: 1.0.4
+        version: 1.0.4(wrangler@4.16.1(@cloudflare/workers-types@4.20250525.0))
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.1.7
@@ -828,8 +828,8 @@ packages:
     resolution: {integrity: sha512-26/3GSoj7mKN7XpQFikYM2Lrwal5jlMc4fJO//QAdd5bCSnBaWBAkzr7+VvXAFVIC6eBeDLdtlWiQuUQVEAPZQ==}
     hasBin: true
 
-  '@opennextjs/cloudflare@1.0.3':
-    resolution: {integrity: sha512-+SNhz2JmKkMlWzndTSYZeq0eseAPfEXUUYJA7H9MkgFe36i1no0OdiLuwu9e4uR3yuOzaNWB+skCYHsD6Im9nA==}
+  '@opennextjs/cloudflare@1.0.4':
+    resolution: {integrity: sha512-DVudGpOSJ91ruPiBJ0kuFmPhEQbXIXLTbvUjAx1OlbwFskG2gvdNIAmF3ZXV6z1VGDO7Q/u2W2ybMZLf7avlrA==}
     hasBin: true
     peerDependencies:
       wrangler: ^4.14.0
@@ -3570,7 +3570,7 @@ snapshots:
       - aws-crt
       - supports-color
 
-  '@opennextjs/cloudflare@1.0.3(wrangler@4.16.1(@cloudflare/workers-types@4.20250525.0))':
+  '@opennextjs/cloudflare@1.0.4(wrangler@4.16.1(@cloudflare/workers-types@4.20250525.0))':
     dependencies:
       '@dotenvx/dotenvx': 1.31.0
       '@opennextjs/aws': 3.6.2
