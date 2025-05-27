@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export const dynamicParams = false;
 
 export default async function Home({
